@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Fake Store Dashboard</h1>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search Product">
+
+        <select id="category">
+            <option value="all">All</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelry</option>
+        </select>
+
+        <h3>Cart Count: <span id="cartCount">0</span></h3>
+    </div>
+
+    <div id="status">Loading Products...</div>
+
+    <div class="stats">
+        <h3>Total Products: <span id="totalProducts"></span></h3>
+        <h3>Average Price: ₹<span id="avgPrice"></span></h3>
+        <h3>Highest Price: <span id="highestPrice"></span></h3>
+        <h3>Lowest Price: <span id="lowestPrice"></span></h3>
+    </div>
+
+    <div id="products" class="products"></div>
+
+    <script src="finaltask.js"></script>
+</body>
+</html>
